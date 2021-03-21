@@ -1,8 +1,8 @@
 V = $(shell git describe --abbrev=0)
 
-FILE_PREFIX = chaotic
+FILE_PREFIX = glados
 PREFIX = /usr/local
-DEFAULT_KEY = 3056513887B78AEB
+DEFAULT_KEY = F015C6B247D6243360B742F994EBB7A5965B9914
 
 install:
 	install -dm755 $(DESTDIR)$(PREFIX)/share/pacman/keyrings/
